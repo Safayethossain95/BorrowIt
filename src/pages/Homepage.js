@@ -7,7 +7,7 @@ import Copyright from '../components/Copyright';
 const Homepage = () => {
   return (
     <>
-          <Menubar name1="Sign Up" name2="Login"/>
+          <Menubar title="Sign Up" title2="Login" not=""/>
           <Banner/>
           <Category/>
           <Footer/>

@@ -6,7 +6,7 @@ import Staysafe from '../components/Staysafe';
 const Staysafepage = () => {
   return (
     <>
-        <Menubar name1="Sign Up" name2="Login"/>
+        <Menubar title="Sign Up" title2="Login" not=""/>
           <Staysafe/>
           <Footer/>
           <Copyright/>

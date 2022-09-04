@@ -6,7 +6,7 @@ import Copyright from '../components/Copyright';
 const Productpage = () => {
   return (
     <>
-        <Menubar name1="Log In" name2="Sign Up"/>
+        <Menubar title="Log In" title2="Sign Up" not=""/>
         <ProductDetails/>
         <Footer/>
         <Copyright/>

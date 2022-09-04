@@ -7,7 +7,7 @@ import Copyright from '../components/Copyright';
 const Myaccountpage = () => {
   return (
     <>
-          <Menubar name1="My Account" name2="Log Out"/>
+          <Menubar title="My Account" title2="Log Out" not="not"/>
           <Banner/>
           
           <Category/>

@@ -1,5 +1,6 @@
 import React,{useContext} from 'react'
 import { Container } from 'react-bootstrap'
+import {Link} from 'react-router-dom'
 const Category = (props) => {
   
   return (
@@ -11,7 +12,7 @@ const Category = (props) => {
                 props.searchprop?
                     props.searchprop.map(item=>(
                         <li>
-                        <a href="fashion_category.html">
+                        <a>
                             <img src={item.img} alt=""/>
                             <h3>{item.message}</h3>
                             <p>{item.ads} ads</p>
@@ -22,11 +23,11 @@ const Category = (props) => {
                 props.myarray? 
                         props.myarray.map(item=>(
                             <li>
-                            <a href="fashion_category.html">
+                            <Link to={item.link}>
                                 <img src={item.img} alt=""/>
                                 <h3>{item.message}</h3>
                                 <p>{item.ads} ads</p>
-                            </a>
+                            </Link>
                         </li>
                         ))
                         :

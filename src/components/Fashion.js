@@ -66,9 +66,7 @@ const handleSubmit =(e)=>{
                                         <p> <FaMapMarkerAlt/> {item.location}</p>
                                         <h4 className="price">{item.price}<span>Tk/day</span></h4>
                                     </div>
-                                    <div className="delete_btn">
-                                        <button>Delete Ad ??</button>
-                                    </div>
+                                    
                                 </div>
                                 </div>
                             </a>
@@ -86,9 +84,7 @@ const handleSubmit =(e)=>{
                                         <p> <FaMapMarkerAlt/> {item.location}</p>
                                         <h4 className="price">{item.price}<span>Tk/day</span></h4>
                                     </div>
-                                    <div className="delete_btn">
-                                        <button>Delete Ad ??</button>
-                                    </div>
+                                    
                                 </div>
                                 </div>
                             </a>

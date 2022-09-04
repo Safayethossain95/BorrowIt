@@ -6,7 +6,7 @@ import Dashboard from '../components/Dashboard';
 const Mydashboard = () => {
   return (
     <>
-        <Menubar/>
+        <Menubar title="My Account" title2="Log Out" not="not"/>
         <Dashboard/>
         
         <Footer/>

@@ -7,7 +7,7 @@ import Fashion from '../components/Fashion';
 const FashionCategorypage = () => {
   return (
     <>
-        <Menubar name1="Login" name2="Sign up"/>
+        <Menubar title="Login" title2="Sign up" not=""/>
         
         <Fashion/>
         <Footer/>

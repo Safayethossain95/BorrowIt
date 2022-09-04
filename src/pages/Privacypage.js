@@ -7,7 +7,7 @@ import Privacypolicy from '../components/Privacypolicy'
 const Privacypage = () => {
   return (
     <>
-       <Menubar name1="Sign Up" name2="Login"/> 
+       <Menubar title="Sign Up" title2="Login" not=""/> 
        <Privacypolicy/>
        <Footer/>
        <Copyright/>

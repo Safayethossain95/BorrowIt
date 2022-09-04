@@ -1,7 +1,7 @@
 import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
 import {FaMapMarkerAlt} from 'react-icons/fa'
-
+import {Link} from 'react-router-dom'
 const Dashboard = () => {
   return (
     <>
@@ -12,7 +12,7 @@ const Dashboard = () => {
                         <div className="post_part">
                             <h2>Account Holder Name</h2>
                             <div className="add_post_btn">
-                                <a href="my_post_ad.html">Post your ad now!</a>
+                                <Link to="/mypostad">Post your ad now!</Link>
                             </div>
                         </div>
                     </Col>

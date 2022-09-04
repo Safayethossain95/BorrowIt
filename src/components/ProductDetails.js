@@ -2,6 +2,7 @@ import React,{useState,useEffect,useRef} from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
 import Slider from "react-slick";
 import {FaMapMarkerAlt,FaChevronLeft,FaChevronRight,FaPhoneAlt,FaLock} from 'react-icons/fa'
+import {Link} from 'react-router-dom'
 const ProductDetails = () => {
     const settings = {
         dots: false,
@@ -189,7 +190,7 @@ const ProductDetails = () => {
                                 <li> Meet in a safe & public place </li>
                                 <li> Check the item before buying it </li>
                                 <li> Don’t pay in advance </li>
-                                <a href="stay_safe.html" target="_blank"> See all safety tips</a>
+                                <Link to="/staysafe" target="_blank"> See all safety tips</Link>
                             </ul>
                         </div>
 

@@ -6,7 +6,7 @@ import Terms from '../components/Terms';
 const Termspage = () => {
   return (
     <>
-        <Menubar name1="Login" name2="Sign up"/>
+        <Menubar title="Login" title2="Sign up" not=""/>
         
         <Terms/>
         <Footer/>
